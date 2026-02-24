@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    padding:40px;
+}
+
+.columns{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.row1, .row2, .row3{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    border:2px solid black;
+    padding:20px;
+    text-align:center;
+    flex:1;
+}
+
+.cardWide{
+    flex:2;
+}
+
+.cardLong{
+    flex:2;
+}
+
+.cardSmall{
+    flex:1;
+}
